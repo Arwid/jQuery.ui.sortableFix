@@ -6,8 +6,7 @@ updated:: 9 May 2011
 
 This plugin override jQuery.ui.sortable with several fixes. Namely the bugs:
 1. Drag an item away from the list and try to drag it back in via the top or bottom. The placeholder isn't placed correctly.
-2. If the option 'appendTo' is set to an outside element and the list is scrollable, jQuery.ui.sortable will still deal with the overflowing items. It shouldn't.
-  This becomes a bigger issue when you have multiple lists; specifically an overflowing list on top of another.
+2. If the option 'appendTo' is set to an outside element and the list is scrollable, jQuery.ui.sortable will still deal with the overflowing items. It shouldn't. This becomes a bigger issue when you have multiple lists; specifically an overflowing list on top of another.
 3. In some cases jQuery.ui.sortable doesn't respect the 'items' options.
 4. Sorting doesn't work correctly for a nested list.
 
