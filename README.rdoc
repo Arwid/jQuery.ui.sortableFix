@@ -17,6 +17,10 @@ Simply include the file after $.ui.sortable is included and use $.sortable as be
 
 * Refer to http://jqueryui.com/demos/sortable/ for its documentation.
 
+= Warning
+
+This plugin overrides $.ui.contains and makes it unusable. It doesn't make a difference for $.sortable but I haven't checked where else $.ui.contains is used so it could potentially be problematic. The plugin works for me so until a bug presents itself I'll leave it as is.
+
 = License
 
 jQuery.ui.sortableFix is covered by the MIT License.
